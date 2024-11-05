@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+main {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+.main-news-container {
+    width: 690px;
+}
+.info-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.tag {
+    display: inline;
+    color: white;
+    height: 16px;
+    font-size: 11px;
+    padding: 3px 14px;
+}
+.yellow {
+    background-color: #E7C652;
+}
+.green {
+    background-color: #68E082;
+}
+.blue {
+    background-color: #609FFF;
+}
+.red {
+    background-color: #F34C4C;
+}
+.darkgreen {
+    background: #97CC00;
+}
+.orange {
+    background: #FFAD33;
+}
+.violet {
+    background: #8100E6;
+}
+.lightblue {
+    background: #00C8D4;
+}
+.lightred {
+    background: #F15A2A;
+}
+.data {
+    font-size: 12px;
+    color: #888888;
+    margin: 0 30px;
+}
+.statistic {
+    display: flex;
+    color: #888888;
+    font-size: 12px;
+}
+.statistic > div {
+    display: flex;
+    align-items: center;
+    margin-right: 21px;
+}
+.statistic > div > img {
+    margin-right: 6px;
+}
+.big-news-container {
+    margin-bottom: 50px;
+}
+.big-news-container h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.big-news-container p {
+    line-height: 24px;
+}
+.big-news-container > a > img {
+    width: 690px;
+    height: 360px;
+}
+.hot-container {
+    width: 240px;
+}
+.hot-container > h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.small-news-container {
+    margin-top: 25px;
+}
+.small-news-container > a > img {
+    width: 240px;
+}
+.image-link {
+    display: block;
+    margin-bottom: 15px;
+}
+.small-news-container h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.button-container button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+button.add-button {
+    padding: 15px 30px;
+    background-color: #FF1850;
+    color: #FFFFFF;
+    border: none;
+    margin: 10px;
+    margin-right: 0;
+}

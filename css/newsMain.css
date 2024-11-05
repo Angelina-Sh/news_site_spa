@@ -1,0 +1,134 @@
+.statistics-container {
+    position: fixed;
+}
+.full-news-container {
+    width: 780px;
+    margin-left: 180px;
+}
+.info-container {
+    margin-top: 0;
+}
+.full-news-container > h1 {
+    font-size: 35px;
+}
+.full-news-container > img {
+    margin: 35px 0;
+    width: 100%;
+}
+.full-text p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.comments-container {
+    margin-top: 45px;
+}
+
+.comments-container .name {
+    color: #888888;
+    font-size: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 46px;
+    border-bottom: 1px solid #ECECEC;;
+}
+
+.comments-container .name > span {
+    color: #000000;
+}
+
+.comments-container .add-container {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.comments-container .add-container > div {
+    width: 690px;
+}
+
+.comments-container .add-container input {
+    color: #888888;
+    border: none;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+.comments-container .add-container .button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.user-comment-image {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 21px;
+}
+
+.subcomment-user-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+
+.comment-container {
+    display: flex;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.comment-container > div > .username {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.comment-container > div > .comment-text {
+    margin-bottom: 8px;
+}
+
+.comment-container > div > .comment-text .answer-reference {
+    color: #FF1850;
+}
+
+.comment-container > div > .answer {
+    color: #888888;
+    font-weight: 500;
+}
+
+.comment-container > div > .hide-show {
+    color: #FF1850;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.comment-container > div > .hide-show > img {
+    margin-right: 12px;
+}
+
+.sub-comment-container {
+    display: flex;
+    flex-direction: column;
+}
+.statistics-container {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    top: 350px;
+}
+.statistics-container div {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.statistics-container img{
+    width: 23px;
+    height: 23px;
+    margin-right: 15px;
+}
